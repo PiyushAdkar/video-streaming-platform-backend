@@ -100,9 +100,6 @@ const getSubscribedChannels = asyncHandler(async (req, res) => {
     if(!subscriberId) throw new ApiError(400, "Subscriber-Id is necessary");
     if(!mongoose.Types.ObjectId.isValid(subscriberId)) throw new ApiError(400, "Invalid subscriber-id");
 
-    const user = await User.findById(channelId);
-    if(!user) throw new ApiError(404, "User not found");
-
     const toSubscribed = await Subscription.aggregate([
         {
             $match: {
