@@ -115,12 +115,12 @@ npm install
 npm run dev
 
 # API Structure
-/api/users → User registration & login
-/api/videos → Video fetching & stats
-/api/comments → Comment CRUD
-/api/likes → Like/unlike operations
-/api/playlists → Playlist CRUD
-/api/subscriptions → Subscribe/unsubscribe
-/api/tweets → Create/read/update/delete tweets
-/api/healthCheck → Server healthcheck
-/api/dashboard → Channel stats
+- /api/users → User registration & login
+- /api/videos → Video fetching & stats
+- /api/comments → Comment CRUD
+- /api/likes → Like/unlike operations
+- /api/playlists → Playlist CRUD
+- /api/subscriptions → Subscribe/unsubscribe
+- /api/tweets → Create/read/update/delete tweets
+- /api/healthCheck → Server healthcheck
+- /api/dashboard → Channel stats
