@@ -59,32 +59,23 @@ The backend is structured with models, controllers, and middlewares to keep the 
 - Simple micro-posts feature.
 
 # Controllers:
-1.User Controller
-registerUser, loginUser, logoutUser, refreshAccessToken, updateUserPassword, getCurrentUser, updateUserDetails, updateUserAvatar, updateUserCoverImage, getUserChannelProfile, getWatchHistory
+- User Controller: registerUser, loginUser, logoutUser, refreshAccessToken, updateUserPassword, getCurrentUser, updateUserDetails, updateUserAvatar, updateUserCoverImage, getUserChannelProfile, getWatchHistory
 
-2.Video Controller
-getVideoById, publishAVideo, updateVideoDetails, deleteVideo, togglePublishStatus, getAllVideos 
+- Video Controller: getVideoById, publishAVideo, updateVideoDetails, deleteVideo, togglePublishStatus, getAllVideos 
 
-3.Comment Controller
-getVideoComments, addComment, updateComment, deleteComment
+- Comment Controller: getVideoComments, addComment, updateComment, deleteComment
 
-4.Like Controller
-toggleCommentLike, toggleVideoLike, toggleTweetLike, getLikedVideos
+- Like Controller: toggleCommentLike, toggleVideoLike, toggleTweetLike, getLikedVideos
 
-5.Playlist Controller
-createPlaylist, getPlaylistById, getUserPlaylists, addVideoToPlaylist, removeVideoFromPlaylist, deletePlaylist, updatePlaylist
+- Playlist Controller: createPlaylist, getPlaylistById, getUserPlaylists, addVideoToPlaylist, removeVideoFromPlaylist, deletePlaylist, updatePlaylist
 
-6.Subscription Controller
-toggleSubscription, getUserChannelSubscribers, getSubscribedChannels
+- Subscription Controller: toggleSubscription, getUserChannelSubscribers, getSubscribedChannels
 
-7.Tweet Controller
-createTweet, getUserTweets, updateTweet, deleteTweet
+- Tweet Controller: createTweet, getUserTweets, updateTweet, deleteTweet
 
-8.Healthcheck Controller
-healthcheck: Returns server status.
+- Healthcheck Controller: healthcheck: Returns server status.
 
-9.Dashboard Controller
-getChannelStats, getChannelVideos
+- Dashboard Controller: getChannelStats, getChannelVideos
 
 # Middleware & Utilities:
 - Auth: Protect routes and verify user JWT.
