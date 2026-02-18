@@ -5,14 +5,14 @@ This is the backend for a YouTube-like video streaming platform built with Node.
 The backend is structured with models, controllers, and middlewares to keep the project modular and scalable.
 
 # Features:
-1. User Authentication: Register, login, JWT-based access and refresh tokens.
-2. Video Management: Upload videos with thumbnails, track views, and publish/unpublish status.
-3. Comments & Likes: Users can comment on videos, like videos, comments, and tweets.
-4. Subscriptions: Users can subscribe/unsubscribe to channels and see subscriber info.
-5. Playlists: Users can create playlists, add/remove videos, update details, and delete playlists.
-6. Tweets (Micro-posts): Users can post short text-based content and interact via likes.
-7. Healthcheck Endpoint: Simple endpoint to check if backend is running.
-8. Channel Dashboard: Fetch channel stats like total videos, total likes, views, and subscribers.
+- User Authentication: Register, login, JWT-based access and refresh tokens.
+- Video Management: Upload videos with thumbnails, track views, and publish/unpublish status.
+- Comments & Likes: Users can comment on videos, like videos, comments, and tweets.
+- Subscriptions: Users can subscribe/unsubscribe to channels and see subscriber info.
+- Playlists: Users can create playlists, add/remove videos, update details, and delete playlists.
+- Tweets (Micro-posts): Users can post short text-based content and interact via likes.
+- Healthcheck Endpoint: Simple endpoint to check if backend is running.
+- Channel Dashboard: Fetch channel stats like total videos, total likes, views, and subscribers.
 
 # Dependencies:
 "dependencies": {
